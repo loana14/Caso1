@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="iwdth=device-width, intial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    </head>
+    <body onload="habilitar()">
+        <section class="form">
+            <p>Nombre</p>
+            <input class="controls" type="text" id="nombre" placeholder="Ingrese su nombre">
+            <p>Correo electronico</p>
+            <input class="controls" type="email" id="email" placeholder="Ingrese su email">
+            <p>Numero</p>
+            <input class="controls" id="random"  type="number" id="numero" readonly>
+            <br>
+            <br>
+            <input  id="button" class="button" type="submit" onclick="validar()" value="SUBMIT">
+        </section> 
+
+    </body>
+    <script src="js/script.js"></script>
+</html>
